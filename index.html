@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Friend Pick</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Friend Pick">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="logo">🎡 Friend Pick</div>
+      <div class="actions">
+        <button id="btnSettings" aria-label="Settings">⚙️</button>
+      </div>
+    </header>
+
+    <main id="screenContainer">
+      <!-- screens injected by app.js -->
+    </main>
+
+    <footer class="bottombar">
+      <span id="footerMsg">Party game • Add to Home Screen for full-screen</span>
+    </footer>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./service-worker.js').catch(console.error);
+      });
+    }
+  </script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

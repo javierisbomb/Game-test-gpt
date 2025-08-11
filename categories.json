@@ -1,0 +1,38 @@
+{
+  "Movies": [
+    "A movie you can watch 100 times",
+    "Best comfort movie",
+    "Favorite childhood movie",
+    "Guilty pleasure film",
+    "Movie that made you cry",
+    "Go-to horror movie",
+    "Funniest movie ever"
+  ],
+  "Food": [
+    "Best midnight snack",
+    "Favorite pizza topping",
+    "Dream birthday dinner",
+    "Controversial food you love",
+    "A food you can't stand",
+    "Best fast-food fries",
+    "Ideal road-trip snack"
+  ],
+  "Vibes": [
+    "Perfect lazy Sunday",
+    "Best vacation spot",
+    "Ideal superpower",
+    "Morning person or night owl",
+    "Go-to karaoke song",
+    "First drink at the bar",
+    "Favorite season"
+  ],
+  "Phrases": [
+    "Something you say too much",
+    "A phrase that makes you laugh",
+    "Your most-used emoji",
+    "A quote you live by",
+    "An inside joke with friends",
+    "A phrase that icks you",
+    "A phrase you text a lot"
+  ]
+}
